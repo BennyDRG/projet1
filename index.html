@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/scripts.js" defer></script>
+    <link rel="stylesheet" href="assets/css/styles.css" >
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>Projet 1</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>introspect</h1>
+            <ul>
+                <li><a href="https://lien1.com">Accueil</a></li>
+                <li><a href="https://lien2.com">Services</a></li>
+                <li><a href="https://lien3.com">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <img class="image1" 
+        src="/assets/img/IMG_20230613_213800.jpg" alt="image_intro">
+    </header>
+
+    <main>
+        <section>
+             <h2>Diaporama</h2>
+            <div id="carousel">
+                <div class="images">
+                    <div class="image">
+                        <img src="assets/img/Honkai_mei_1.png" alt="image Honkai 1">
+                        <div class="caption">
+                            <h2>image1</h2>
+                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, maiores.</p>
+                        </div>
+                    </div>
+                     <div class="image">
+                        <img src="assets/img/Honkai_mei_2.png" alt="image Honkai 2">
+                        <div class="caption">
+                            <h2>image2</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, maiores.</p>
+                        </div>
+                    </div>
+                    <div class="image">
+                           <img src="assets/img/Honkai_mei_3.png" alt="image Honkai 3">
+                        <div class="caption">
+                            <h2>image3</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, maiores.</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="las la-caret-left" id="nav-gauche"></i>
+                <i class="las la-caret-right" id="nav-droite"></i>
+            </div>
+        </section>
+
+        <section>
+            <h3>Pellentesque Adipis</h3>
+            <img class="image" 
+            src="/assets/img/IMG_20230613_213754.jpg" alt="montre">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis libero saepe esse natus, non totam dolore suscipit quae earum beatae!
+            </p>
+
+             <h3>Morbi interdum mol</h3>
+            <img class="image" 
+            src="/assets/img/IMG_20230613_213803.jpg" alt="machine_a_ecrire">
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam voluptate magni minima maiores velit fuga quae magnam. Minus, fugiat maxime!
+                </p>
+        </section>
+
+        <section>
+                <article>
+                    <i class="las la-tv"></i>
+                    <h3>Tempus feugiat</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, alias?</p>
+                    <button class="bouton1" 
+                        type="button">
+                        En savoir plus
+                    </button>
+                </article>
+
+                <article>
+                    <i class="las la-gem"></i>
+                    <h3>Aliquam nulla</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, deleniti.</p>
+                    <button class="bouton2" 
+                        type="button">
+                        En savoir plus
+                    </button>
+                </article>
+
+                <article>
+                    <i class="las la-tv"></i>
+                    <h3>Sed magna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, alias?</p>
+                    <button class="bouton3" 
+                        type="button">
+                        En savoir plus
+                    </button>
+                </article>
+            </section>
+    </main>
+
+    <footer>
+        <form method="get">
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="mail">e-mail&nbsp;:</label>
+                <input type="email" id="mail" name="mail" pattern="/^[a-zA-Z0-9.!#$%&’+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:.[a-zA-Z0-9-]+)$/">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="msg"></textarea>
+            </div>
+            <button class="bouton4">
+                    Envoyer
+            </button>
+        </form>
+
+    </footer>
+</body>
+</html>
